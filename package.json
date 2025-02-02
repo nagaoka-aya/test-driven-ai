@@ -17,12 +17,21 @@
         "command": "test-driven-ai.coding",
         "title": "test driven AI coding",
         "icon": "$(request-changes)"
+      },
+      {
+        "command": "test-driven-ai.test-coding",
+        "title": "AI test coding",
+        "icon": "$(request-changes)"
       }
     ],
     "menus": {
       "editor/title": [
         {
           "command": "test-driven-ai.coding",
+          "group": "navigation"
+        },
+        {
+          "command": "test-driven-ai.test-coding",
           "group": "navigation"
         }
       ]
